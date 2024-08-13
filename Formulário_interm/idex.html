@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="style.css">
+
+    <script src="/script.js"> </script>
+  
+    <title>Mentoria</title>
+</head>
+<body>
+
+    <div class="page">
+        <header>
+            <div class="title">
+                <h1>MENTORIA</h1>
+                <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+            </div>
+        </header>
+        <main>
+            <Section class="personal-info">
+                <legend>
+                Informações Pessoais
+                </legend>
+
+                <div class="box1">
+                    <form>
+                        <label for="nome">Nome</label>
+                        <input type="text-nome">
+                    </form>
+
+                    <form>    
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text-sobrenome">
+                    </form>
+                </div>
+                
+                <form>    
+                    <label for="email">Email <span>(digite um email válido)</span></label>
+                    <input type="text-email">
+                </form>
+                
+                <form>    
+                    <label for="senha">Senha <span>(mínimo de 6 caracteres)</span></label>
+                    <input type="password">
+                </form>
+
+            </Section>
+
+            <section class="mentor-info">
+
+                <legend>
+                    Informações do Mentor
+                </legend>
+        
+                
+                    <form>
+                        <label for="nomeMentor">Nome do seu mentor <span>(somente o primeiro nome)</span></label>
+                        <input type="text-nomeMentor">
+                    </form>
+                
+
+            </section>
+
+            <section class="date">
+                <legend>
+                    Seus horários disponíveis
+                </legend>
+
+                <h2>primeira mentoria</h2>
+
+                <div class="box2">
+                    <form>
+                        <label for="data">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date">
+                    </form>
+
+                    <form>
+                        <label for="data">das </label>
+                        <input type="time">
+                    </form>
+                    <form>
+                        <label for="data">às </label>
+                        <input type="time">
+                    </form>
+                </div>
+
+                <h2>segunda mentoria</h2>
+
+                <div class="box3">
+                    <form>
+                        <label for="data">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date">
+                    </form>
+
+                    <form>
+                        <label for="data">das </label>
+                        <input type="time">
+                    </form>
+                    <form>
+                        <label for="data">às </label>
+                        <input type="time">
+                    </form>
+                </div>
+
+            </section>
+
+            <footer>
+                <button>Salvar</button>
+            </footer>
+        </main>
+
+    </div>
+
+    
+</body>
+</html>
